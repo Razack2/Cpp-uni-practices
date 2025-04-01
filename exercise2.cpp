@@ -8,7 +8,7 @@ int main(){
 
     switch (daysUntilExpiration)
     {
-    case 1 :
+    case 1:
         daysUntilExpiration<=10;
         cout << "Your subscription will expire soon. Renew now!" << endl;
         break;
