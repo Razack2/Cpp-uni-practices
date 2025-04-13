@@ -57,7 +57,7 @@ int main(){
             cout << "Invalid input. Please enter a valid input "<<endl;
         }
 
-     }while(choice >=1 &&choice>=4);
+     }while(choice !=4);
 
     return 0;
 }
