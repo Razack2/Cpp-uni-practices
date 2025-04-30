@@ -34,15 +34,14 @@ int main (){
             cin>>numArray[i][j];
         }
     }
-    cout << "\nThe values of the 2D array are :\n";
+    cout << "\n The values of the 2D array are :\n";
     for (int i=0; i<firstVal; i++){
         for (int j=0; j<secondVal; j++){
             cout<<numArray[i][j]<<"\t";
         }
         cout <<endl;
     }
-
-    //free allocated memory
+    //free allocated memory//
     for (int i = 0; i <firstVal; i++) {
         delete[] numArray[i];
     }

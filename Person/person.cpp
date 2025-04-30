@@ -24,6 +24,9 @@ void person::setAge(int age) {
 person::operator int(){
     return mAge;
 }
+person::operator std::string()
+{
+}
 person::operator float(){
     return mWeight;
 }

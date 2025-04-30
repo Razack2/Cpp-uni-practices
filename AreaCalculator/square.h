@@ -10,7 +10,6 @@ class square{
 
     void  setsideLength(double side);
     double getsideLength()const;
-
     ~square();
 
 };
