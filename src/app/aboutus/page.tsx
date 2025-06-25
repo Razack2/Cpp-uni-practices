@@ -5,3 +5,4 @@ const page = () => {
         <div><h1>This is part is under development</h1></div>
     );
 }
+export default page
