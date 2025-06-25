@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import AgriPage from '../agri/page';
+
 
 type Subject = {
   name: string;
