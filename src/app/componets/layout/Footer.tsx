@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from 'react';
+
 
 const Footer = () => {
   return (
@@ -19,10 +21,9 @@ const Footer = () => {
           <span className="ml-2 text-gray-400">&copy; 2025 inc.</span>
         </div>
         <div className="flex gap-10 items-center md:flex-row justify-center py-1 px-0.5">
-          <a href="#" className="hover:text-orange-400">Subjects</a>
-          <a href="#" className="hover:text-orange-400">Papers</a>
-          <a href="#" className="hover:text-orange-400">About us</a>
-          <a href="#" className="hover:text-orange-400">Contact us</a>
+          <Link href="/subjects" className="hover:text-orange-400">Subjects</Link>
+          <Link href="/aboutus" className="hover:text-orange-400">About us</Link>
+          <Link href="/contactus" className="hover:text-orange-400">Contact us</Link>
         </div>
       </div>
     </footer>

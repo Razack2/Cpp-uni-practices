@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Signup from '../signup/Signup';
+
 const Content = () => {
   return (
     <section className="py-16 px-6 bg-gray-50 text-center">
